@@ -1,0 +1,58 @@
+{
+  "name": "react-cheetah-grid",
+  "version": "0.0.1",
+  "description": "react cheetah grid",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src -d lib && gulp build-css",
+    "init": "npm i -d --registry=https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yah0130/react-cheetah-grid.git"
+  },
+  "keywords": [
+    "react",
+    "grid",
+    "data-table",
+    "cheetah-grid"
+  ],
+  "author": "yah0130",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yah0130/react-cheetah-grid/issues"
+  },
+  "homepage": "https://github.com/yah0130/react-cheetah-grid#readme",
+  "dependencies": {
+    "cheetah-grid": "^0.23.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "autoprefixer": "^8.2.0",
+    "classnames": "^2.2.5",
+    "cssnano": "^3.10.0",
+    "gulp": "^4.0.1",
+    "gulp-less": "^4.0.1",
+    "less": "^3.0.1",
+    "less-plugin-autoprefix": "^2.0.0",
+    "lodash": "^4.17.5",
+    "prettier": "^1.15.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
